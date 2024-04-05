@@ -1,0 +1,77 @@
+# Camera reference (enter serial numbers for each)
+cam1:
+  serial: 19061024
+  ismaster: true
+  crop:
+  - 135
+  - 200
+  - 32
+  - 200
+  exposure: 4000
+  framerate: 200
+  bin: 1
+  nickname: sideCamZoom
+cam2:
+  serial: 19129066
+  ismaster: false
+  crop:
+  - 87
+  - 200
+  - 37
+  - 200
+  exposure: 4000
+  framerate: 200
+  bin: 1
+  nickname: frontCamZoom
+cam3:
+  serial: 19461912
+  ismaster: false
+  crop:
+  - 10
+  - 300
+  - 45
+  - 200
+  exposure: 4000
+  framerate: 100
+  bin: 1
+  nickname: sideCamOut
+cam4:
+  serial: 19461913
+  ismaster: false
+  crop:
+  - 7
+  - 300
+  - 64
+  - 200
+  exposure: 4000
+  framerate: 100
+  bin: 1
+  nickname: bottomCamOut
+
+# User information
+unitRef: unitP01
+raw_data_dir: /home/person/Documents/RawDataLocal
+compressed_video_dir: /media/sda/CompressedDataLocal
+COM: /dev/ttyACM0
+
+# Stim ROI
+stimAxes: cam1
+stimXWYH:
+- 165
+- 27
+- 95
+- 100
+stimRate: 600
+
+# Pellet and ROI
+axesRef: cam2
+pelletXY:
+- 186
+- 136
+roiXWYH:
+- 132
+- 27
+- 128
+- 100
+
+
